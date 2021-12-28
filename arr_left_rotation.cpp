@@ -9,9 +9,9 @@ int main(){
 
 vector<int> a;
 
-//rotLeft(a,4);
+    //rotLeft(a,4);
 
-     int length,frequencyOfRotations;
+    int length,frequencyOfRotations;
 
     cin>>length>>frequencyOfRotations;
 
@@ -30,7 +30,7 @@ vector<int> a;
 }
 
 vector<int> rotLeft(vector<int> a, int d) {
-//d is the number of left rotations
+
     while (d--)
     {
         for (int i = 0; i < a.size(); i++)
@@ -48,4 +48,5 @@ vector<int> rotLeft(vector<int> a, int d) {
 }
  
 return a;
+
 }
