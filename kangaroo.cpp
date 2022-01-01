@@ -10,10 +10,9 @@ int main(){
 
     int x1,v1,x2,v2,k1_rate = x1+v1,k2_rate=x2+v2;
 
-   cin>>x1>>v1>>x2>>v2;
-   bool num = lcm(x1,v1,x2,v2);
-
-    if (v1>v2 || num)
+   cin>>x1>>v1>>x2>>v2; 
+    
+    if (v1>v2 || lcm(x1,v1,x2,v2);)
     {
      while (k1_rate != k2_rate)
         {
